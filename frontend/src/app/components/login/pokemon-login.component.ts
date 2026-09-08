@@ -398,7 +398,7 @@ import { AuthService } from '../../services/auth.service';
 })
 export class PokemonLoginComponent {
   username = 'JugadorPokemon';
-  password = 'Susanita2014';
+  password = AuthService.DEFAULT_DEMO_PASSWORD;
   loading = false;
   errorMessage = '';
 

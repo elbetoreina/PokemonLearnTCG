@@ -15,10 +15,12 @@ public class AuthService
     private readonly string _jwtIssuer;
     private readonly string _jwtAudience;
 
+    public const string DefaultDemoPassword = "Pk!Arena#2026$Demo";
+
     private static readonly Dictionary<string, (string Password, UserProfile Profile)> Users = new(StringComparer.OrdinalIgnoreCase)
     {
-        ["JugadorPokemon"] = ("Susanita2014", new UserProfile("JugadorPokemon", "Jugador Pokémon 1", "pokemon")),
-        ["JugadorPokemon2"] = ("Susanita2014", new UserProfile("JugadorPokemon2", "Jugador Pokémon 2", "pokemon"))
+        ["JugadorPokemon"] = (DefaultDemoPassword, new UserProfile("JugadorPokemon", "Jugador Pokémon 1", "pokemon")),
+        ["JugadorPokemon2"] = (DefaultDemoPassword, new UserProfile("JugadorPokemon2", "Jugador Pokémon 2", "pokemon"))
     };
 
     public AuthService(IConfiguration config)

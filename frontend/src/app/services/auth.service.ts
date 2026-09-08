@@ -22,6 +22,7 @@ export interface LoginResponse {
 export class AuthService {
   private readonly TOKEN_KEY = 'pokemontcg_access_token';
   private readonly USER_KEY = 'pokemontcg_user_claims';
+  public static readonly DEFAULT_DEMO_PASSWORD = 'Pk!Arena#2026$Demo';
 
   private apiUrl = `${environment.apiBaseUrl}/api/auth`;
   private currentUserSubject = new BehaviorSubject<UserClaims | null>(null);
@@ -60,7 +61,7 @@ export class AuthService {
 
   quickLogin(playerNumber: 1 | 2): Observable<LoginResponse> {
     const username = playerNumber === 1 ? 'JugadorPokemon' : 'JugadorPokemon2';
-    const password = 'Susanita2014';
+    const password = AuthService.DEFAULT_DEMO_PASSWORD;
     return this.login(username, password);
   }
 
