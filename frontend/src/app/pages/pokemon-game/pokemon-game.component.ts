@@ -759,7 +759,7 @@ export interface StreamChatMessage {
           </div>
           <div class="brand-text">
             <h1 class="brand-title">POKÉMON TCG LIVE</h1>
-            <span class="brand-subtitle">Vestíbulo de Entrenadores • VORTEX ARENA</span>
+            <span class="brand-subtitle">Vestíbulo de Entrenadores • BATTLE ARENA</span>
           </div>
         </div>
 
@@ -827,18 +827,7 @@ export interface StreamChatMessage {
             </div>
           </button>
 
-          <button class="lobby-btn btn-primary-glass" *ngIf="!isPokemonRole" (click)="leaveToHome()" title="Volver al menú principal de VORTEX">
-            <div class="lobby-btn-icon-wrap icon-home">
-              <svg class="btn-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                <polyline points="9 22 9 12 15 12 15 22"/>
-              </svg>
-            </div>
-            <div class="lobby-btn-content">
-              <span class="lobby-btn-title">VORTEX</span>
-              <span class="lobby-btn-sub">Menú Principal</span>
-            </div>
-          </button>
+          
         </div>
       </header>
 
@@ -1460,7 +1449,7 @@ export interface StreamChatMessage {
       color: #f87171;
     }
 
-    /* Volver a VORTEX */
+    /* BotÃ³n Secundario */
     .btn-primary-glass {
       border-color: rgba(56, 189, 248, 0.35);
       color: #7dd3fc;

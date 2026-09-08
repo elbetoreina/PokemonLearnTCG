@@ -44,7 +44,7 @@ builder.Services.AddCors(options =>
 });
 
 // 5. JWT Authentication
-var jwtKey = builder.Configuration["Jwt:Key"] ?? "PokemonTCG_Super_Secret_Key_For_Jwt_Auth_2026_VortexFree!";
+var jwtKey = builder.Configuration["Jwt:Key"] ?? "PokemonTCG_Super_Secret_Key_For_Jwt_Auth_2026_Standalone!";
 var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "PokemonTCG.API";
 var jwtAudience = builder.Configuration["Jwt:Audience"] ?? "PokemonTCG.Client";
 

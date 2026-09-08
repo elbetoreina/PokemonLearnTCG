@@ -22,7 +22,7 @@ export class GameService {
   async connect(): Promise<void> {
     if (this.connection) return;
 
-    // Connect to VORTEX.API SignalR hub via /api/ prefix so Nginx routes to backend
+    // Connect to SignalR hub via /api/ prefix so Nginx routes to backend
     const hubUrl = `${environment.apiBaseUrl}/api/hubs/pokemon`;
     this.connection = new signalR.HubConnectionBuilder()
       .withUrl(hubUrl, {

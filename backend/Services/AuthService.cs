@@ -26,7 +26,7 @@ public class AuthService
     public AuthService(IConfiguration config)
     {
         _config = config;
-        _jwtKey = _config["Jwt:Key"] ?? "PokemonTCG_Super_Secret_Key_For_Jwt_Auth_2026_VortexFree!";
+        _jwtKey = _config["Jwt:Key"] ?? "PokemonTCG_Super_Secret_Key_For_Jwt_Auth_2026_Standalone!";
         _jwtIssuer = _config["Jwt:Issuer"] ?? "PokemonTCG.API";
         _jwtAudience = _config["Jwt:Audience"] ?? "PokemonTCG.Client";
     }
