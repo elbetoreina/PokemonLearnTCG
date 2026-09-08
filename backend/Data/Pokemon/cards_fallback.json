@@ -1,0 +1,1989 @@
+[
+  {
+    "id": "cur-charmander",
+    "name": "Charmander",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Scratch",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "name": "Ember",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "1"
+  },
+  {
+    "id": "cur-charmeleon",
+    "name": "Charmeleon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Charmander",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Flare",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      },
+      {
+        "name": "Fire Spin",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "70",
+        "text": ""
+      }
+    ],
+    "number": "2"
+  },
+  {
+    "id": "cur-charizard",
+    "name": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": 150,
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Charmeleon",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Flame Tail",
+        "cost": [
+          "Fire",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "60",
+        "text": ""
+      },
+      {
+        "name": "Fire Blast",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "damage": "120",
+        "text": ""
+      }
+    ],
+    "number": "3"
+  },
+  {
+    "id": "cur-pikachu",
+    "name": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Quick Attack",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "name": "Thunder Jolt",
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "4"
+  },
+  {
+    "id": "cur-raichu",
+    "name": "Raichu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 100,
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": "Pikachu",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Spark",
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "name": "Thunderbolt",
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "90",
+        "text": ""
+      }
+    ],
+    "number": "5"
+  },
+  {
+    "id": "cur-squirtle",
+    "name": "Squirtle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Tackle",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "name": "Water Gun",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "6"
+  },
+  {
+    "id": "cur-wartortle",
+    "name": "Wartortle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": "Squirtle",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Bubble",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "name": "Hydro Pump",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "damage": "80",
+        "text": ""
+      }
+    ],
+    "number": "7"
+  },
+  {
+    "id": "cur-blastoise",
+    "name": "Blastoise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": 150,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": "Wartortle",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Water Pulse",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "70",
+        "text": ""
+      },
+      {
+        "name": "Hydro Cannon",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "damage": "130",
+        "text": ""
+      }
+    ],
+    "number": "8"
+  },
+  {
+    "id": "cur-bulbasaur",
+    "name": "Bulbasaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Vine Whip",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "9"
+  },
+  {
+    "id": "cur-ivysaur",
+    "name": "Ivysaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Bulbasaur",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Razor Leaf",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "name": "Solar Beam",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "80",
+        "text": ""
+      }
+    ],
+    "number": "10"
+  },
+  {
+    "id": "cur-venusaur",
+    "name": "Venusaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": 160,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Ivysaur",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Petal Dance",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "70",
+        "text": ""
+      },
+      {
+        "name": "Solar Blast",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "130",
+        "text": ""
+      }
+    ],
+    "number": "11"
+  },
+  {
+    "id": "cur-machop",
+    "name": "Machop",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Low Kick",
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20",
+        "text": ""
+      },
+      {
+        "name": "Karate Chop",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      }
+    ],
+    "number": "12"
+  },
+  {
+    "id": "cur-machamp",
+    "name": "Machamp",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": 150,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Machoke",
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Dynamic Punch",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "90",
+        "text": ""
+      },
+      {
+        "name": "Cross Chop",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "130",
+        "text": ""
+      }
+    ],
+    "number": "13"
+  },
+  {
+    "id": "cur-gastly",
+    "name": "Gastly",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 50,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Lick",
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "number": "14"
+  },
+  {
+    "id": "cur-gengar",
+    "name": "Gengar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": 130,
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Haunter",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Dream Eater",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "damage": "90",
+        "text": ""
+      }
+    ],
+    "number": "15"
+  },
+  {
+    "id": "cur-meowth",
+    "name": "Meowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "attacks": [
+      {
+        "name": "Pay Day",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": "Draw a card."
+      }
+    ],
+    "number": "16"
+  },
+  {
+    "id": "cur-eevee",
+    "name": "Eevee",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "name": "Quick Attack",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "17"
+  },
+  {
+    "id": "cur-snorlax",
+    "name": "Snorlax",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 130,
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "attacks": [
+      {
+        "name": "Body Slam",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "name": "Heavy Impact",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "80",
+        "text": ""
+      }
+    ],
+    "number": "18"
+  },
+  {
+    "id": "cur-fire-energy",
+    "name": "Basic Fire Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Fire"
+    ],
+    "number": "19"
+  },
+  {
+    "id": "cur-water-energy",
+    "name": "Basic Water Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Water"
+    ],
+    "number": "20",
+    "imageSmall": "assets/imported-cards/cur-water-energy.png",
+    "imageLarge": "assets/imported-cards/cur-water-energy.png"
+  },
+  {
+    "id": "cur-grass-energy",
+    "name": "Basic Grass Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Grass"
+    ],
+    "number": "21",
+    "imageSmall": "assets/imported-cards/cur-grass-energy.png",
+    "imageLarge": "assets/imported-cards/cur-grass-energy.png"
+  },
+  {
+    "id": "cur-lightning-energy",
+    "name": "Basic Lightning Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Lightning"
+    ],
+    "number": "22",
+    "imageSmall": "assets/imported-cards/cur-lightning-energy.png",
+    "imageLarge": "assets/imported-cards/cur-lightning-energy.png"
+  },
+  {
+    "id": "cur-psychic-energy",
+    "name": "Basic Psychic Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Psychic"
+    ],
+    "number": "23"
+  },
+  {
+    "id": "cur-fighting-energy",
+    "name": "Basic Fighting Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Fighting"
+    ],
+    "number": "24"
+  },
+  {
+    "id": "cur-darkness-energy",
+    "name": "Basic Darkness Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Darkness"
+    ],
+    "number": "25"
+  },
+  {
+    "id": "cur-metal-energy",
+    "name": "Basic Metal Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Metal"
+    ],
+    "number": "26"
+  },
+  {
+    "id": "cur-potion",
+    "name": "Potion",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Heal 30 damage from 1 of your Pokémon."
+    ],
+    "number": "27",
+    "imageSmall": "assets/imported-cards/cur-potion.png",
+    "imageLarge": "assets/imported-cards/cur-potion.png"
+  },
+  {
+    "id": "cur-super-potion",
+    "name": "Super Potion",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Heal 60 damage from 1 of your Pokémon."
+    ],
+    "number": "28",
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png"
+  },
+  {
+    "id": "cur-switch",
+    "name": "Switch",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Switch your Active Pokémon with 1 of your Benched Pokémon."
+    ],
+    "number": "29",
+    "imageSmall": "assets/imported-cards/cur-switch.png",
+    "imageLarge": "assets/imported-cards/cur-switch.png"
+  },
+  {
+    "id": "cur-professor",
+    "name": "Professor's Research",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Discard your hand and draw 7 cards."
+    ],
+    "number": "30",
+    "imageSmall": "assets/imported-cards/cur-professor.png",
+    "imageLarge": "assets/imported-cards/cur-professor.png"
+  },
+  {
+    "id": "cur-pokeball",
+    "name": "Poké Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "rules": [
+      "Search your deck for a Pokémon, reveal it, and put it into your hand."
+    ],
+    "number": "31",
+    "imageSmall": "assets/imported-cards/cur-pokeball.png",
+    "imageLarge": "assets/imported-cards/cur-pokeball.png"
+  },
+  {
+    "id": "cur-gym-trainer",
+    "name": "Gym Trainer",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Supporter"
+    ],
+    "rules": [
+      "Draw 2 cards."
+    ],
+    "number": "32",
+    "imageSmall": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gym-badge.png",
+    "imageLarge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gym-badge.png"
+  },
+  {
+    "id": "imp-morpeko",
+    "name": "Morpeko",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 80,
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-morpeko.png",
+    "imageLarge": "assets/imported-cards/imp-morpeko.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Targeted Spark",
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "number": "109"
+  },
+  {
+    "id": "imp-eevee",
+    "name": "Eevee",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 50,
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-eevee.png",
+    "imageLarge": "assets/imported-cards/imp-eevee.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Continuous Steps",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30×",
+        "text": "Flip a coin until you get tails. This attack does 30 damage for each heads."
+      }
+    ],
+    "number": "205"
+  },
+  {
+    "id": "imp-garchomp-ex",
+    "name": "Cynthia's Garchomp ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "hp": 330,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Cynthia's Gabite",
+    "retreatCost": [],
+    "imageSmall": "assets/imported-cards/imp-garchomp-ex.png",
+    "imageLarge": "assets/imported-cards/imp-garchomp-ex.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Corkscrew Dive",
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "100",
+        "text": "You may draw cards until you have 6 cards in your hand."
+      },
+      {
+        "name": "Draconic Buster",
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "260",
+        "text": "Discard all Energy from this Pokémon."
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "number": "104"
+  },
+  {
+    "id": "imp-barboach",
+    "name": "Barboach",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-barboach.png",
+    "imageLarge": "assets/imported-cards/imp-barboach.png",
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Rain Splash",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      }
+    ],
+    "number": "35"
+  },
+  {
+    "id": "imp-scyther",
+    "name": "Scyther",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 80,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-scyther.png",
+    "imageLarge": "assets/imported-cards/imp-scyther.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Quick Blow",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30+",
+        "text": "Flip a coin. If heads, this attack does 30 more damage."
+      }
+    ],
+    "number": "5"
+  },
+  {
+    "id": "imp-buneary",
+    "name": "Buneary",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-buneary.png",
+    "imageLarge": "assets/imported-cards/imp-buneary.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Try Bouncing",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "number": "144"
+  },
+  {
+    "id": "imp-energy-loto",
+    "name": "Energy Loto",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "imageSmall": "assets/imported-cards/imp-energy-loto.png",
+    "imageLarge": "assets/imported-cards/imp-energy-loto.png",
+    "rules": [
+      "Look at the top 7 cards of your deck. You may reveal an Energy card you find there and put it into your hand. Shuffle the other cards back into your deck."
+    ],
+    "number": "140"
+  },
+  {
+    "id": "imp-fire-energy",
+    "name": "Fire Energy",
+    "supertype": "Energy",
+    "subtypes": [
+      "Basic"
+    ],
+    "energyProvides": [
+      "Fire"
+    ],
+    "imageSmall": "assets/imported-cards/imp-fire-energy.png",
+    "imageLarge": "assets/imported-cards/imp-fire-energy.png",
+    "rules": [],
+    "number": "2"
+  },
+  {
+    "id": "imp-spinda",
+    "name": "Spinda",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 90,
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-spinda.png",
+    "imageLarge": "assets/imported-cards/imp-spinda.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Dizzying Spin",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "text": "This attack does 10 damage to each of your opponent's Pokémon. Your opponent's Active Pokémon is now Confused."
+      }
+    ],
+    "number": "141"
+  },
+  {
+    "id": "imp-overqwil",
+    "name": "Hisuian Overqwil",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 130,
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Hisuian Qwilfish",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-overqwil.png",
+    "imageLarge": "assets/imported-cards/imp-overqwil.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Tormenting Poison",
+        "cost": [],
+        "damage": "",
+        "text": "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 5 damage counters on that Pokémon instead of 1."
+      },
+      {
+        "name": "Pinning",
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "50",
+        "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+      }
+    ],
+    "number": "90"
+  },
+  {
+    "id": "imp-rotom",
+    "name": "Rotom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 80,
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-rotom.png",
+    "imageLarge": "assets/imported-cards/imp-rotom.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Overhaul",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "text": "Shuffle your hand into your deck. Then, draw 6 cards."
+      },
+      {
+        "name": "Mach Bolt",
+        "cost": [
+          "Lightning",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "80",
+        "text": ""
+      }
+    ],
+    "number": "53"
+  },
+  {
+    "id": "imp-sneasel",
+    "name": "Hisuian Sneasel",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-sneasel.png",
+    "imageLarge": "assets/imported-cards/imp-sneasel.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Scratch",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "name": "Claw Slash",
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "92"
+  },
+  {
+    "id": "imp-ting-lu",
+    "name": "Ting-Lu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 140,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-ting-lu.png",
+    "imageLarge": "assets/imported-cards/imp-ting-lu.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Overhead Throw",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "130",
+        "text": "This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "number": "110"
+  },
+  {
+    "id": "imp-fan-rotom",
+    "name": "Ting-Lu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 140,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-ting-lu.png",
+    "imageLarge": "assets/imported-cards/imp-ting-lu.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Overhead Throw",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "130",
+        "text": "This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "number": "110"
+  },
+  {
+    "id": "imp-heracross",
+    "name": "Heracross",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 110,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-heracross.png",
+    "imageLarge": "assets/imported-cards/imp-heracross.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Horn Attack",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "name": "Overhead Throw",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ],
+        "damage": "120",
+        "text": "This attack also does 30 damage to 1 of your Benched Pokémon."
+      }
+    ],
+    "number": "8"
+  },
+  {
+    "id": "imp-mudkip",
+    "name": "Mudkip",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 70,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-mudkip.png",
+    "imageLarge": "assets/imported-cards/imp-mudkip.png",
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Mud-Slap",
+        "cost": [
+          "Water"
+        ],
+        "damage": "20",
+        "text": ""
+      },
+      {
+        "name": "Playful Kick",
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "62"
+  },
+  {
+    "id": "imp-growlithe",
+    "name": "Hisuian Growlithe",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 80,
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-growlithe.png",
+    "imageLarge": "assets/imported-cards/imp-growlithe.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Defensive Posture",
+        "cost": [],
+        "damage": "",
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+      },
+      {
+        "name": "Bite",
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "70"
+  },
+  {
+    "id": "imp-mantine",
+    "name": "Mantine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 110,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-mantine.png",
+    "imageLarge": "assets/imported-cards/imp-mantine.png",
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Borne Ashore",
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "text": "Put a Basic Pokémon from either player's discard pile onto that player's Bench."
+      },
+      {
+        "name": "Aqua Edge",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ],
+        "damage": "100",
+        "text": ""
+      }
+    ],
+    "number": "34"
+  },
+  {
+    "id": "imp-manectric",
+    "name": "Manectric",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 120,
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": "Electrike",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-manectric.png",
+    "imageLarge": "assets/imported-cards/imp-manectric.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Zap Kick",
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "30",
+        "text": ""
+      },
+      {
+        "name": "Flash Impact",
+        "cost": [
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "120",
+        "text": "This attack also does 40 damage to 1 of your Benched Pokémon."
+      }
+    ],
+    "number": "76"
+  },
+  {
+    "id": "imp-drakloak",
+    "name": "Drakloak",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 90,
+    "types": [
+      "Dragon"
+    ],
+    "evolvesFrom": "Dreepy",
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-drakloak.png",
+    "imageLarge": "assets/imported-cards/imp-drakloak.png",
+    "abilities": [
+      {
+        "name": "Recon Directive",
+        "type": "Ability",
+        "text": "Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Dragon Headbutt",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ],
+        "damage": "70",
+        "text": ""
+      }
+    ],
+    "number": "72"
+  },
+  {
+    "id": "imp-poochyena",
+    "name": "Poochyena",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-poochyena.png",
+    "imageLarge": "assets/imported-cards/imp-poochyena.png",
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Gnaw",
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "name": "Slight Intrusion",
+        "cost": [
+          "Darkness",
+          "Darkness"
+        ],
+        "damage": "30",
+        "text": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "number": "95"
+  },
+  {
+    "id": "imp-croconaw",
+    "name": "Croconaw",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": 100,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": "Totodile",
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-croconaw.png",
+    "imageLarge": "assets/imported-cards/imp-croconaw.png",
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Wave Splash",
+        "cost": [
+          "Water"
+        ],
+        "damage": "30",
+        "text": ""
+      },
+      {
+        "name": "Surf",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "60",
+        "text": ""
+      }
+    ],
+    "number": "56"
+  },
+  {
+    "id": "imp-basculin",
+    "name": "Hisuian Basculin",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 50,
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-basculin.png",
+    "imageLarge": "assets/imported-cards/imp-basculin.png",
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Gather the Crew",
+        "cost": [],
+        "damage": "",
+        "text": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+      },
+      {
+        "name": "Tackle",
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "text": ""
+      }
+    ],
+    "number": "43"
+  },
+  {
+    "id": "imp-magnemite",
+    "name": "Magnemite",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 60,
+    "types": [
+      "Metal"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-magnemite.png",
+    "imageLarge": "assets/imported-cards/imp-magnemite.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Magnetic Catch",
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "text": "Shuffle up to 3 Metal Energy cards from your discard pile into your deck."
+      },
+      {
+        "name": "Rolling Attack",
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "number": "105"
+  },
+  {
+    "id": "imp-voltorb",
+    "name": "Hisuian Voltorb",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 50,
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-voltorb.png",
+    "imageLarge": "assets/imported-cards/imp-voltorb.png",
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Cheerful Charge",
+        "cost": [],
+        "damage": "",
+        "text": "You can use this attack only if you go second, and only during your first turn. Choose up to 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a basic Energy card and attach it to that Pokémon."
+      },
+      {
+        "name": "Ram",
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "text": ""
+      }
+    ],
+    "number": "2"
+  },
+  {
+    "id": "imp-qwilfish",
+    "name": "Hisuian Qwilfish",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": 80,
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "imageSmall": "assets/imported-cards/imp-qwilfish.png",
+    "imageLarge": "assets/imported-cards/imp-qwilfish.png",
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Spiny Rush",
+        "cost": [],
+        "damage": "10×",
+        "text": "Flip a coin until you get tails. This attack does 10 damage for each heads."
+      }
+    ],
+    "number": "89"
+  }
+]
