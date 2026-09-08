@@ -77,7 +77,10 @@ import { AuthService } from '../../services/auth.service';
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="password">Contraseña</label>
+            <div class="label-row">
+              <label class="form-label" for="password">Contraseña</label>
+              <span class="demo-pill">Demo: <code>Pk!Arena#2026$Demo</code></span>
+            </div>
             <input
               id="password"
               type="password"
@@ -329,6 +332,26 @@ import { AuthService } from '../../services/auth.service';
       display: flex;
       flex-direction: column;
       gap: 6px;
+    }
+
+    .label-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .demo-pill {
+      font-size: 11px;
+      color: #94a3b8;
+    }
+
+    .demo-pill code {
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.15);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 11px;
     }
 
     .form-label {
